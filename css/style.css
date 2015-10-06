@@ -1,3 +1,23 @@
-body {
-	background: red;
+section {
+	margin: 0 0 20px 0;
+	padding: 10px;
+	border: 1px solid #999;
+	font-family: Arial, sans-serif;
+}
+
+.headline {	
+	color: #444;
+	font-size: 24px;
+}
+
+#top-headline {
+	font-size: 40px;
+	color: red;
+}
+
+p.date {
+	font-size: 12px;
+	color: #888;
+	margin: 0;
+	padding: 0;
 }
