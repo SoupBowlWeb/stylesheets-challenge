@@ -1,15 +1,18 @@
+/* Element selector */
 section {
 	margin: 0 0 20px 0;
 	padding: 10px;
 	border: 1px solid #999;
+}
+
+/* class selector */
+section .headline {	
+	color: #444;
+	font-size: 24px;
 	font-family: Arial, sans-serif;
 }
 
-.headline {	
-	color: #444;
-	font-size: 24px;
-}
-
+/* ID selector */
 #top-headline {
 	color: red;
 	font-size: 40px;
@@ -21,3 +24,58 @@ p.date {
 	margin: 0;
 	padding: 0;
 }
+
+ol {
+	color: orange;
+}
+
+ol ol {
+	color: green;
+}
+
+li {
+	font-size: 20px;
+}
+
+.inner-list li {
+	font-size: 16px;
+}
+
+ol ol li {
+	font-size: 16px;
+}
+
+/* This is a selector for a direct descendant */
+#bottom-section > p {
+	color: green;
+	font-size: 30px;
+}
+
+input {
+	border: 1px solid red;
+}
+
+/* This is an attribute selector */
+input[type="text"] {
+	border-color: green;	
+}
+
+/* 
+This is an example of a selector 
+where something immediately follows 
+something else 
+*/
+section p+p {
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
